@@ -1,0 +1,3 @@
+﻿  C++.cpp
+C:\Users\Леонид Александрович\Desktop\Programming\Practice\14\C++\C++.cpp(13,10): warning C4244: =: преобразование "double" в "long", возможна потеря данных
+  C++.vcxproj -> C:\Users\Леонид Александрович\Desktop\Programming\Practice\14\C++\Debug\C++.exe
