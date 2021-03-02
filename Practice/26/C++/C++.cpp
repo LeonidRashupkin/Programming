@@ -2,7 +2,7 @@
 #include <vector>
 #include <cmath>
 
-#include "bozosort.hpp"
+#include "BS.h"
 template<class T>
 using vector_t = std::vector<T>;
 template<class T>

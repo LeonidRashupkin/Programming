@@ -1,11 +1,11 @@
 ﻿#include <iostream>
-#include "json.hpp"
+#include "json.h"
 #include <fstream>
 #include <iomanip>
 using namespace std;
 using json = nlohmann::json;
 int main() {
-	ifstream input("in.json");
+	ifstream input("1.json");
 	json inj;
 	input >> inj;
 	int F, UL = 10;
@@ -22,7 +22,7 @@ int main() {
 		push["userId"] = i;
 		outj.push_back(push);
 	}
-	ofstream output("out.json");
+	ofstream output("2.json");
 	output << setw(1) << outj << endl;
 
 

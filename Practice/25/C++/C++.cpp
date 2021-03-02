@@ -2,7 +2,7 @@
 #include <vector>
 #include <cmath>
 
-#include "bozosort.hpp"
+#include "BS.h"
 typedef std::vector<int> vector_t;
 typedef std::vector<std::vector<int>> matrix_t;
 

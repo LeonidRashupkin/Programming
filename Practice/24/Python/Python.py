@@ -2,8 +2,8 @@ import json
 import os
 UserList = 10
 outj = []
-path = 'in.json'
-path1 = "out.json"
+path = '1.json'
+path1 = "2.json"
 
 with open(path, 'r') as fr:
     inj = json.load(fr)
